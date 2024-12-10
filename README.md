@@ -31,6 +31,7 @@ python wifi_speed_monitor.py
 
 ## To customize the monitoring parameters:
 interval: Time in seconds between each data collection (default: 1 second).
+
 count: Number of monitoring cycles (default: 10).
 
 ## Example Output:
