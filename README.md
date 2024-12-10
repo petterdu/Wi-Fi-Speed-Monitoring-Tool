@@ -20,17 +20,21 @@ This Python script allows you to monitor Wi-Fi speed (receive and transmit rates
 # Clone the repository
 git clone https://github.com/your-username/wifi-speed-monitor.git
 ```
-## Navigate to the directory
+# Navigate to the directory
+```bash
 cd wifi-speed-monitor
-
+```
 # Run the script
+```bash
 python wifi_speed_monitor.py
+```
 
 # To customize the monitoring parameters:
 # interval: Time in seconds between each data collection (default: 1 second).
 # count: Number of monitoring cycles (default: 10).
 
-# Example Output:
+## Example Output:
+```bash
 # [1/10] Receive Rate: 780.0 Mbps, Transmit Rate: 866.7 Mbps
 # [2/10] Receive Rate: 782.0 Mbps, Transmit Rate: 866.7 Mbps
 # ...
@@ -60,15 +64,8 @@ python wifi_speed_monitor.py
 # Transmit Rates: [866.7, 866.7, ..., 866.7]
 # Average Receive Rate: 779.80 Mbps
 # Average Transmit Rate: 866.70 Mbps
+```
 
-# Limitations:
-# This script is designed to work only on Windows systems using the netsh command.
-# Administrator privileges might be required to execute the script properly.
-
-# Contribution:
-# Contributions are welcome!
-# Feel free to fork this repository, report issues, or submit pull requests.
-
-# License:
+## License:
 # This project is licensed under the MIT License.
 # See the LICENSE file for details.
