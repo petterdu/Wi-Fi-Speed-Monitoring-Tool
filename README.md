@@ -19,7 +19,7 @@ This Python script allows you to monitor Wi-Fi speed (receive and transmit rates
 ```bash
 # Clone the repository
 git clone https://github.com/your-username/wifi-speed-monitor.git
-
+```
 ## Navigate to the directory
 cd wifi-speed-monitor
 
